@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up reports and Test started]]>
+    </line>
+    <line>
+      <![CDATA[Setting done Test can be started]]>
+    </line>
+    <line>
+      <![CDATA[Trying to start Browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser and Apllication is up and running..]]>
+    </line>
+    <line>
+      <![CDATA[Test about to end and reports are getting generated]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed and Reports generated>>>>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15129" started-at="2020-04-15T13:14:13Z" finished-at="2020-04-15T13:14:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15129" started-at="2020-04-15T13:14:13Z" finished-at="2020-04-15T13:14:28Z">
+      <class name="com.guru.qa.testcases.TC_LoginTest">
+        <test-method status="PASS" signature="Exceldatasetup()[pri:0, instance:com.guru.qa.testcases.TC_LoginTest@3532ec19]" name="Exceldatasetup" is-config="true" duration-ms="1255" started-at="2020-04-15T18:44:11Z" finished-at="2020-04-15T18:44:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up reports and Test started]]>
+            </line>
+            <line>
+              <![CDATA[Setting done Test can be started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Exceldatasetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.guru.qa.testcases.TC_LoginTest@3532ec19]" name="setup" is-config="true" duration-ms="12492" started-at="2020-04-15T18:44:13Z" finished-at="2020-04-15T18:44:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to start Browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser and Apllication is up and running..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginappl()[pri:0, instance:com.guru.qa.testcases.TC_LoginTest@3532ec19]" name="loginappl" duration-ms="332" started-at="2020-04-15T18:44:25Z" finished-at="2020-04-15T18:44:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginappl -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.guru.qa.testcases.TC_LoginTest@3532ec19]" name="tearDownMethod" is-config="true" duration-ms="1455" started-at="2020-04-15T18:44:25Z" finished-at="2020-04-15T18:44:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginappl status=SUCCESS method=TC_LoginTest.loginappl()[pri:0, instance:com.guru.qa.testcases.TC_LoginTest@3532ec19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test about to end and reports are getting generated]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed and Reports generated>>>>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.guru.qa.testcases.TC_LoginTest@3532ec19]" name="teardown" is-config="true" duration-ms="819" started-at="2020-04-15T18:44:27Z" finished-at="2020-04-15T18:44:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.guru.qa.testcases.TC_LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -17,7 +17,7 @@ public class TC_LoginTest extends BaseClass
 		logger=report.createTest("Login to BP_Travel");
 		
 		PG_LoginPage lp=PageFactory.initElements(driver, PG_LoginPage.class);
-		logger.info("Starting Apllication");
+		logger.info("Starting Application");
 		
 		//UserName and Password are captured from Excel in TestData folder
 		lp.loginBP_Travel(excel.getStringData("Login", 0, 0),excel.getStringData("Login", 0, 1));
